@@ -10,7 +10,7 @@ export default function Page() {
   );
 }
 
-export function Profile() {
+function Profile() {
   return (
     <div className="flex flex-col items-center justify-center min-h-5 p-10">
       <Image
@@ -25,7 +25,7 @@ export function Profile() {
   );
 }
 
-export function Options() {
+function Options() {
   return (
     <div className="flex justify-center mt-10">
       <div className="grid grid-cols-3 gap-10">
