@@ -1,11 +1,15 @@
 import type { NextConfig } from "next";
 
-/** @type {import('next').NextConfig} */
+/**
+* @type {import('next').NextConfig}
+*/
 const nextConfig = {
-  output: "export",  // <=== enables static exports
-  reactStrictMode: true,
+  output: "export",
+  images: {
+    loader: "akamai",
+    path: "",
+  },
+  assetPrefix: "./",
 };
-
-module.exports = nextConfig;
 
 export default nextConfig;

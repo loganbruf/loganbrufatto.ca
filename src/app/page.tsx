@@ -32,8 +32,6 @@ export function Options() {
         <Link href="https://www.linkedin.com/in/loganbrufatto/">
           <Image
             src={"/images/linkedin.png"}
-
-            
             alt="LinkedIn"
             width={100}
             height={100}
