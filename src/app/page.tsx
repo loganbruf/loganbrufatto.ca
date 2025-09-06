@@ -28,7 +28,7 @@ function Profile() {
 function Options() {
   return (
     <div className="flex justify-center mt-10">
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-2 gap-10">
         <Link href="https://www.linkedin.com/in/loganbrufatto/">
           <Image
             src={"/images/linkedin.png"}
@@ -41,14 +41,6 @@ function Options() {
           <Image
             src={"/images/github.png"}
             alt="GitHub"
-            width={100}
-            height={100}
-          />
-        </Link>
-        <Link href="https://loganbruf.itch.io/">
-          <Image
-            src={"/images/itchio.png"}
-            alt="Itch.io"
             width={100}
             height={100}
           />
